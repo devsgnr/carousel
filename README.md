@@ -1,13 +1,15 @@
 # devsgnr-carousel
 
-A Simple Lightweight React.js Carousel built using styled-components
+A Simple React.js Carousel built using styled-components
 
 ## Install
 
-npm
+#### npm
+
 `npm install devsgnr-carousel`
 
-yarn
+#### yarn
+
 `yarn add devsgnr-carousel`
 
 ## Props

@@ -1,6 +1,6 @@
 {
   "name": "devsgnr-carousel",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "A Simple React.js Carousel, built using styled-components.",
   "main": "./dist/index.js",
   "keywords": [
@@ -50,7 +50,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "build-dist": "rollup -c",
+    "build-dist": "rollup -c && yarn tsc",
     "start-dist": "rollup -c -w"
   },
   "peerDependencies": {
