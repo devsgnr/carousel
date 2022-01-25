@@ -9,6 +9,7 @@
     "carousel",
     "typescript"
   ],
+  "typings": "./dist/index.d.ts",
   "homepage": "https://github.com/devsgnr/carousel#readme",
   "repository": {
     "url": "https://github.com/devsgnr/carousel.git",
