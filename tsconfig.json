@@ -16,7 +16,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "declaration": true,
-    "emitDeclarationOnly": true,
+    "noEmit": false,
     "declarationMap": true
   },
   "include": ["src"],

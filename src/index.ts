@@ -1,1 +1,2 @@
-export { default as Carousel } from "./components/carousel";
+import Carousel from "./components/carousel";
+export default Carousel;
