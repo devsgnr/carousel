@@ -1,7 +1,30 @@
 {
-  "name": "carousel",
-  "version": "0.1.0",
-  "private": true,
+  "name": "devsgnr-carousel",
+  "version": "1.0.3",
+  "description": "A Simple React.js Carousel, built using styled-components.",
+  "main": "./dist/index.js",
+  "keywords": [
+    "react",
+    "react carousel",
+    "carousel",
+    "typescript"
+  ],
+  "homepage": "https://github.com/devsgnr/carousel#readme",
+  "repository": {
+    "url": "https://github.com/devsgnr/carousel.git",
+    "type": "git"
+  },
+  "author": {
+    "name": "Emmanuel Watila",
+    "url": "https://devsgnr.xyz",
+    "email": "ei.watila@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/devsgnr/carousel/issues",
+    "email": "ei.watila@gmail.com"
+  },
+  "readme": "README.md",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -10,9 +33,12 @@
     "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
+    "@types/styled-components": "^5.1.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-feather": "^2.0.9",
     "react-scripts": "5.0.0",
+    "styled-components": "^5.3.3",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
@@ -20,12 +46,33 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "build-dist": "rollup -c",
+    "start-dist": "rollup -c -w"
   },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "files": [
+    "dist"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
     ]
   },
   "browserslist": {
@@ -39,5 +86,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.4.14",
+    "@storybook/addon-essentials": "^6.4.14",
+    "@storybook/addon-links": "^6.4.14",
+    "@storybook/builder-webpack5": "^6.4.14",
+    "@storybook/manager-webpack5": "^6.4.14",
+    "@storybook/node-logger": "^6.4.14",
+    "@storybook/preset-create-react-app": "^4.0.0",
+    "@storybook/react": "^6.4.14",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "rollup": "^2.66.1",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "webpack": "^5.67.0"
   }
 }
