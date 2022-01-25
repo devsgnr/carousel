@@ -1,6 +1,6 @@
 # devsgnr-carousel
 
-A Simple Lightweight React.js Carousel built using styled-components - `packaged: 4.8kb`, `unpacked: 18.3kb`
+A Simple Lightweight React.js Carousel built using styled-components
 
 ## Install
 
