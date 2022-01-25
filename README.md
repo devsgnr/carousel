@@ -12,6 +12,16 @@ A Simple React.js Carousel built using styled-components
 
 `yarn add devsgnr-carousel`
 
+---
+
+## Demo
+
+##### Click the link below
+
+[View Demo here](https://codesandbox.io/s/devsgnr-carousel-4lm2d)
+
+---
+
 ## Props
 
 | props                     | values                                                                                                |
@@ -29,5 +39,7 @@ A Simple React.js Carousel built using styled-components
 | thumbnailOutlineOffset    | `number`: `optional?` default `1`, set the offset of the outline from the thumbnail, ie. how far away |
 | borderRadius              | `number`: `optional?` default `10`, set the `border-radius` of the carousel                           |
 | thumbnailOutlineOffset    | `number`: `optional?` default `1`, set the offset of the outline from the thumbnail, ie. how far away |
+
+---
 
 Package bundled using Rollup.js
