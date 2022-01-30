@@ -64,8 +64,8 @@ export default App;
 
 #### Demos
 
-[TypeScript Demo](https://codesandbox.io/s/devsgnr-carousel-4lm2d)
-[JavaScript Demo](https://codesandbox.io/s/devsgnr-carousel-js-dxxyf)
+- [TypeScript Demo](https://codesandbox.io/s/devsgnr-carousel-4lm2d)
+- [JavaScript Demo](https://codesandbox.io/s/devsgnr-carousel-js-dxxyf)
 
 ---
 
