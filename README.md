@@ -2,13 +2,11 @@
 
 <center>A Simple Carousel built using React, Typescript and styled-components</center>
 
-<center>
 ![npm](https://img.shields.io/npm/v/devsgnr-carousel)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/devsgnr-carousel)
 ![npm](https://img.shields.io/npm/dw/devsgnr-carousel)
 ![NPM](https://img.shields.io/npm/l/devsgnr-carousel)
 ![GitHub watchers](https://img.shields.io/github/watchers/devsgnr/carousel?style=social)
-</center>
 
 ---
 
