@@ -21,10 +21,10 @@
 
 ## Install
 
-npm
-`npm install devsgnr-carousel`
-yarn
-`yarn add devsgnr-carousel`
+- npm
+  `npm install devsgnr-carousel`
+- yarn
+  `yarn add devsgnr-carousel`
 
 ---
 
