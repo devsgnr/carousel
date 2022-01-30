@@ -1,6 +1,6 @@
 {
   "name": "devsgnr-carousel",
-  "version": "1.0.12",
+  "version": "1.2.0",
   "description": "A Simple React.js Carousel, built using styled-components.",
   "main": "./dist/index.js",
   "keywords": [

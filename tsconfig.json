@@ -20,5 +20,16 @@
     "declarationMap": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "dist", "rollup.config.js"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "rollup.config.js",
+    "src/stories",
+    "src/*.stories.tsx",
+    "src/setupTests.ts",
+    "src/reportWebVitals.ts",
+    "src/*.test.tsx",
+    "src/index.tsx",
+    "src/App.tsx"
+  ]
 }
