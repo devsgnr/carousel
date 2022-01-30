@@ -14,12 +14,12 @@ A Simple Carousel built using React, Typescript and styled-components
 
 ## Table of Content
 
-1. [Install](README.md#install)
-2. [Usage](README.md#usage)
-3. [Demos](README.md#demos)
-4. [Props](README.md#props)
+1. [Install](#install)
+2. [Usage](#usage)
+3. [Demos](#demos)
+4. [Props](#props)
 
-## Install {#install}
+## Install
 
 #### npm
 
@@ -31,7 +31,7 @@ A Simple Carousel built using React, Typescript and styled-components
 
 ---
 
-## Usage {#usage}
+## Usage
 
 #### Example with default props
 
@@ -67,13 +67,13 @@ const App = () => {
 export default App;
 ```
 
-##### Click the link below for Demos {#demos}
+#### Demos
 
 [TypeScript Demo here](https://codesandbox.io/s/devsgnr-carousel-4lm2d)
 
 ---
 
-## Props {#props}
+## Props
 
 | props                     | values                                                                                                |
 | ------------------------- | ----------------------------------------------------------------------------------------------------- |
