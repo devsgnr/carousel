@@ -1,6 +1,6 @@
 # devsgnr-carousel
 
-A Simple Carousel built using React, Typescript and styled-components
+:tada: A Simple Carousel built using React, Typescript and styled-components
 
 ---
 
@@ -21,21 +21,16 @@ A Simple Carousel built using React, Typescript and styled-components
 
 ## Install
 
-#### npm
-
+npm
 `npm install devsgnr-carousel`
-
-#### yarn
-
+yarn
 `yarn add devsgnr-carousel`
 
 ---
 
 ## Usage
 
-#### Example with default props
-
-Customize according to your needs, check [Props](#props).
+Example with default props ~ customize props according to your needs, check [props](#props).
 
 ```tsx
 ...
@@ -69,7 +64,8 @@ export default App;
 
 #### Demos
 
-[TypeScript Demo here](https://codesandbox.io/s/devsgnr-carousel-4lm2d)
+[TypeScript Demo](https://codesandbox.io/s/devsgnr-carousel-4lm2d)
+[JavaScript Demo](https://codesandbox.io/s/devsgnr-carousel-js-dxxyf)
 
 ---
 
