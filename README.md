@@ -1,6 +1,8 @@
-# <center>devsgnr-carousel</center>
+# devsgnr-carousel
 
-<center>A Simple Carousel built using React, Typescript and styled-components</center>
+A Simple Carousel built using React, Typescript and styled-components
+
+---
 
 ![npm](https://img.shields.io/npm/v/devsgnr-carousel)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/devsgnr-carousel)
@@ -12,10 +14,10 @@
 
 ## Table of Content
 
-1. [Install](#install)
-2. [Usage](#usage)
-3. [Demos](#demos)
-4. [Props](#props)
+1. [Install](README.md#install)
+2. [Usage](README.md#usage)
+3. [Demos](README.md#demos)
+4. [Props](README.md#props)
 
 ## Install {#install}
 
