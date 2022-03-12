@@ -163,4 +163,5 @@ export const StyledEmptyState = styled.div<EmptyStateProps>`
   text-align: center;
   margin: 0 auto;
   background: #c4c4c4;
+  font-family: sans-serif;
 `;

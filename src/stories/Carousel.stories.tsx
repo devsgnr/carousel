@@ -1,6 +1,6 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import Carousel from "..";
+import Carousel from "../components";
 
 export default {
   title: "Component/Carousel",
@@ -8,7 +8,7 @@ export default {
 } as ComponentMeta<typeof Carousel>;
 
 const Template: ComponentStory<typeof Carousel> = (args) => (
-  <div style={{ width: "650px", height: "500px" }}>
+  <div style={{ height: "500px" }}>
     <Carousel {...args} />
   </div>
 );
